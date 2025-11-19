@@ -1,0 +1,126 @@
+{
+  "hooks": [
+    {
+      "name": "project-milestone-tracker",
+      "description": "Track project completion milestones and celebrate achievements",
+      "triggers": ["project-completed", "checkpoint-passed"],
+      "actions": {
+        "milestone": "record_milestone",
+        "notification": "celebrate_achievement",
+        "update_progress": "true"
+      }
+    },
+    {
+      "name": "skill-progress-monitor",
+      "description": "Monitor skill proficiency changes and learning velocity",
+      "triggers": ["assessment-completed", "project-finished"],
+      "actions": {
+        "analyze_progress": "true",
+        "detect_gaps": "true",
+        "suggest_optimizations": "true",
+        "update_dashboard": "true"
+      }
+    },
+    {
+      "name": "learning-consistency-reminder",
+      "description": "Track learning consistency and provide motivation",
+      "triggers": ["daily-check-in", "weekly-review"],
+      "actions": {
+        "track_consistency": "true",
+        "calculate_streak": "true",
+        "detect_burnout": "true",
+        "encourage_continuation": "true"
+      }
+    },
+    {
+      "name": "prerequisite-validator",
+      "description": "Ensure prerequisites are met before unlocking new skills",
+      "triggers": ["skill-unlock-requested", "phase-advance-requested"],
+      "actions": {
+        "validate_prerequisites": "true",
+        "check_proficiency": "true",
+        "allow_or_block": "true",
+        "explain_requirements": "true"
+      }
+    },
+    {
+      "name": "resource-curator-auto-update",
+      "description": "Keep learning resources fresh and up-to-date",
+      "triggers": ["weekly-update", "new-resource-found"],
+      "actions": {
+        "check_resource_validity": "true",
+        "update_ratings": "true",
+        "remove_broken_links": "true",
+        "add_new_resources": "true"
+      }
+    },
+    {
+      "name": "portfolio-quality-auditor",
+      "description": "Monitor portfolio project quality and readiness",
+      "triggers": ["project-submitted", "portfolio-review-requested"],
+      "actions": {
+        "evaluate_code_quality": "true",
+        "check_documentation": "true",
+        "assess_deployment": "true",
+        "provide_improvements": "true"
+      }
+    },
+    {
+      "name": "market-demand-tracker",
+      "description": "Keep salary and demand data current",
+      "triggers": ["monthly-update", "career-inquiry"],
+      "actions": {
+        "fetch_market_data": "true",
+        "update_salaries": "true",
+        "track_trends": "true",
+        "alert_changes": "true"
+      }
+    },
+    {
+      "name": "interview-prep-assistant",
+      "description": "Help prepare for technical interviews",
+      "triggers": ["interview-prep-requested", "skill-assessment-completed"],
+      "actions": {
+        "compile_talking_points": "true",
+        "generate_interview_questions": "true",
+        "provide_system_design": "true",
+        "suggest_practice": "true"
+      }
+    }
+  ],
+  "automation": {
+    "daily_check_in": {
+      "enabled": true,
+      "time": "09:00",
+      "actions": ["learning_consistency_reminder", "skill_progress_monitor"]
+    },
+    "weekly_review": {
+      "enabled": true,
+      "day": "sunday",
+      "time": "18:00",
+      "actions": ["skill_progress_monitor", "project_milestone_tracker", "portfolio_quality_auditor"]
+    },
+    "monthly_update": {
+      "enabled": true,
+      "day": "first",
+      "time": "12:00",
+      "actions": ["market_demand_tracker", "resource_curator_auto_update", "career_pathway_review"]
+    },
+    "progress_notifications": {
+      "milestone_achieved": true,
+      "skill_mastered": true,
+      "phase_completed": true,
+      "portfolio_ready": true,
+      "job_ready": true
+    }
+  },
+  "settings": {
+    "strict_prerequisites": true,
+    "enable_notifications": true,
+    "enable_analytics": true,
+    "cache_resources": true,
+    "cache_duration_hours": 24,
+    "auto_backup_progress": true,
+    "community_integration": true
+  }
+}
