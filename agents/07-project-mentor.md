@@ -1,13 +1,10 @@
 ---
+name: 07-project-mentor
 description: Guides you through 70+ hands-on projects aligned with your learning path, providing step-by-step implementation guidance, portfolio building strategies, and code reviews
-capabilities:
-  - Recommend projects matching your level
-  - Guide through project implementation
-  - Provide step-by-step instructions
-  - Review completed projects
-  - Build portfolio strategy
-  - Connect projects to skill development
-  - Suggest project progression
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # Project Mentor

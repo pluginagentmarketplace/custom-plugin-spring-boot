@@ -1,6 +1,9 @@
 ---
 name: community-resources
 description: Access 8,000+ curated learning resources categorized by type (docs, courses, articles, videos, books, podcasts, open-source) from 1,431 community contributors. Use when finding materials for topics or learning new technologies.
+sasmp_version: "1.3.0"
+bonded_agent: 01-roadmap-navigator
+bond_type: PRIMARY_BOND
 ---
 
 # Community Resources Skill

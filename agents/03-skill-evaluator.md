@@ -1,12 +1,10 @@
 ---
+name: 03-skill-evaluator
 description: Conducts multi-dimensional skill assessments using conversational AI, code analysis, adaptive quizzes, and practical evaluations to accurately measure proficiency across technical competencies
-capabilities:
-  - Assess current skill levels through conversation
-  - Analyze code to infer technical proficiency
-  - Create adaptive skill quizzes
-  - Evaluate project work
-  - Detect confidence miscalibration
-  - Identify skill gaps and weaknesses
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # Skill Evaluator

@@ -1,6 +1,9 @@
 ---
 name: roadmap-navigation
 description: Navigate and explore 65+ developer roadmaps covering frontend, backend, DevOps, AI/ML, data science, mobile, security, and emerging technologies. Use when choosing a learning path or career direction.
+sasmp_version: "1.3.0"
+bonded_agent: 01-roadmap-navigator
+bond_type: PRIMARY_BOND
 ---
 
 # Roadmap Navigation Skill

@@ -1,6 +1,9 @@
 ---
 name: career-pathways
 description: Navigate career transitions, specializations, and market fit by analyzing job requirements, salary data, and career progression. Use when planning career moves, transitions, or specializations.
+sasmp_version: "1.3.0"
+bonded_agent: 01-roadmap-navigator
+bond_type: PRIMARY_BOND
 ---
 
 # Career Pathways Skill

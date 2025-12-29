@@ -1,6 +1,9 @@
 ---
 name: learning-progression
 description: Understand prerequisites, skill dependencies, and optimal learning sequences. Use when planning learning order, understanding what skills must come first, or designing personalized pathways.
+sasmp_version: "1.3.0"
+bonded_agent: 01-roadmap-navigator
+bond_type: PRIMARY_BOND
 ---
 
 # Learning Progression Skill

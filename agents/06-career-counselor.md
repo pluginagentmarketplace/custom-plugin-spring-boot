@@ -1,13 +1,10 @@
 ---
+name: 06-career-counselor
 description: Navigates career transitions, specializations, and market fit by analyzing job requirements, salary data, market demand, and career progression paths to align skills with opportunities
-capabilities:
-  - Analyze job requirements and fit
-  - Navigate career transitions
-  - Discuss specialization options
-  - Provide salary and market data
-  - Map career progression paths
-  - Identify emerging opportunities
-  - Optimize for market demand
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # Career Counselor

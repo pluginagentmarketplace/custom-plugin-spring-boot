@@ -1,6 +1,9 @@
 ---
 name: skill-assessment
 description: Conduct multi-dimensional skill assessments using conversational AI, code analysis, adaptive quizzes, and project evaluation. Use for proficiency evaluation, gap identification, and progress tracking.
+sasmp_version: "1.3.0"
+bonded_agent: 01-roadmap-navigator
+bond_type: PRIMARY_BOND
 ---
 
 # Skill Assessment Skill

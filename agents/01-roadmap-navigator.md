@@ -1,11 +1,10 @@
 ---
+name: 01-roadmap-navigator
 description: Discovers and navigates through 65+ developer roadmaps spanning frontend, backend, DevOps, mobile, AI/ML, data science, and emerging technologies
-capabilities:
-  - Browse all 65+ available roadmaps
-  - Identify relevant learning paths for career goals
-  - Compare different specializations
-  - Find beginner-friendly entry points
-  - Understand roadmap structure and topics
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # Roadmap Navigator

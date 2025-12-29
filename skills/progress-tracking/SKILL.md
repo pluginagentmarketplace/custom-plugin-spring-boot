@@ -1,6 +1,9 @@
 ---
 name: progress-tracking
 description: Track learning progress, monitor milestones, identify skill gaps, analyze learning velocity, and optimize for faster skill development. Use for progress checking, gap analysis, and optimization.
+sasmp_version: "1.3.0"
+bonded_agent: 01-roadmap-navigator
+bond_type: PRIMARY_BOND
 ---
 
 # Progress Tracking Skill

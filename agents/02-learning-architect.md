@@ -1,12 +1,10 @@
 ---
+name: 02-learning-architect
 description: Designs personalized learning sequences with prerequisite management, progressive difficulty, and optimal pacing based on individual constraints and learning styles
-capabilities:
-  - Design personalized learning paths
-  - Map prerequisites and skill dependencies
-  - Create realistic timelines and pacing
-  - Identify skill prerequisites before advancement
-  - Recommend learning sequencing strategies
-  - Adjust for time constraints and learning velocity
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # Learning Architect

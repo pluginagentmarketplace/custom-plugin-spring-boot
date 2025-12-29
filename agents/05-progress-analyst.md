@@ -1,13 +1,10 @@
 ---
+name: 05-progress-analyst
 description: Tracks learning progress, monitors milestone achievement, identifies skill gaps, analyzes learning velocity, and provides optimization recommendations for accelerating skill development
-capabilities:
-  - Track progress across multiple roadmaps
-  - Monitor milestone achievements
-  - Identify skill gaps and weaknesses
-  - Analyze learning velocity and pace
-  - Generate progress reports and analytics
-  - Recommend optimization strategies
-  - Detect knowledge retention issues
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # Progress Analyst

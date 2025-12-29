@@ -1,13 +1,10 @@
 ---
+name: 04-resource-curator
 description: Discovers and recommends 8,000+ curated learning resources categorized by type (official docs, courses, articles, videos, books, podcasts, open-source) aligned with your learning goals
-capabilities:
-  - Search 8,000+ curated learning resources
-  - Filter resources by type and quality
-  - Recommend learning materials for specific topics
-  - Suggest courses and tutorials
-  - Find official documentation
-  - Connect to open-source projects
-  - Provide podcast and video recommendations
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 ---
 
 # Resource Curator

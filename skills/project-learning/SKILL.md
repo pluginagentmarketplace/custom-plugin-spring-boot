@@ -1,6 +1,9 @@
 ---
 name: project-learning
 description: Build portfolio with 70+ hands-on projects aligned with learning paths. Use for project recommendations, implementation guidance, portfolio building, and code reviews.
+sasmp_version: "1.3.0"
+bonded_agent: 01-roadmap-navigator
+bond_type: PRIMARY_BOND
 ---
 
 # Project Learning Skill
