@@ -1,7 +1,7 @@
 {
   "name": "spring-boot-assistant",
   "version": "1.0.0",
-  "description": "Master your tech career with AI-powered learning paths, skill assessment, project guidance, and community resources from the world's most comprehensive developer roadmap ecosystem",
+  "description": "Spring Boot development plugin with specialized agents for microservices, REST APIs, and enterprise Java",
   "author": "Developer Roadmap Community",
   "repository": "https://github.com/kamranahmedse/developer-roadmap",
   "homepage": "https://roadmap.sh",
