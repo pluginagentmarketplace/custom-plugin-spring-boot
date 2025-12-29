@@ -1,11 +1,11 @@
 {
-  "name": "Developer Roadmap",
+  "name": "spring-boot-assistant",
   "version": "1.0.0",
   "description": "Master your tech career with AI-powered learning paths, skill assessment, project guidance, and community resources from the world's most comprehensive developer roadmap ecosystem",
   "author": "Developer Roadmap Community",
   "repository": "https://github.com/kamranahmedse/developer-roadmap",
   "homepage": "https://roadmap.sh",
-  "license": "MIT",
+  "license": "SEE LICENSE IN LICENSE",
   "keywords": [
     "learning",
     "roadmap",

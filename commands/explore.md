@@ -1,3 +1,9 @@
+---
+name: explore
+description: Explore
+allowed-tools: Read
+---
+
 # Explore
 
 Discover and explore 65+ developer roadmaps covering all major technology domains, career paths, and specializations.

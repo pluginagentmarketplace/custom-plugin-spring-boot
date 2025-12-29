@@ -1,3 +1,9 @@
+---
+name: project
+description: Project
+allowed-tools: Read
+---
+
 # Project
 
 Get project recommendations, implementation guidance, code reviews, and portfolio-building strategies for 70+ hands-on projects aligned with your learning path.

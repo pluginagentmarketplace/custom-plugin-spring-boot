@@ -1,3 +1,9 @@
+---
+name: assess
+description: Assess
+allowed-tools: Read
+---
+
 # Assess
 
 Evaluate your current skill levels across technical competencies using multiple assessment methods: conversational AI, code analysis, adaptive quizzes, and project reviews.

@@ -1,0 +1,15 @@
+{
+  "name": "pluginagentmarketplace-spring-boot",
+  "owner": {
+    "name": "Plugin Agent Marketplace",
+    "email": "pluginagentmarketplace@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "spring-boot-assistant",
+      "source": "./",
+      "description": "Claude Code plugin for spring boot development",
+      "version": "1.0.0"
+    }
+  ]
+}

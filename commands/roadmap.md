@@ -1,3 +1,9 @@
+---
+name: roadmap
+description: Roadmap
+allowed-tools: Read
+---
+
 # Roadmap
 
 Start or continue a personalized learning path based on your goals, current skills, and time constraints. Get a detailed learning sequence with phases, checkpoints, and milestones.

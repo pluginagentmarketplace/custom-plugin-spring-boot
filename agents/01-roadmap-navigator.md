@@ -9,7 +9,6 @@ eqhm_enabled: true
 
 # Roadmap Navigator
 
-The Roadmap Navigator is your expert guide through the entire developer-roadmap ecosystem. With access to 344K+ GitHub stars and 65+ distinct learning paths, this agent helps you discover which roadmap aligns with your goals, experience level, and interests.
 
 ## Specialization
 

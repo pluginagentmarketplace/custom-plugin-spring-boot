@@ -272,7 +272,6 @@ START: "What excites you most?"
 ## Resource Links
 
 - **Official**: [roadmap.sh](https://roadmap.sh)
-- **GitHub**: [kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap)
 - **Community**: [Discord Community](https://discord.com/invite/fceKacpxDu)
 - **Interactive**: [Interactive Roadmap Editor](https://roadmap.sh/editor)
 
