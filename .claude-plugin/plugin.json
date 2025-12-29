@@ -1,7 +1,7 @@
 {
   "name": "spring-boot-assistant",
   "version": "1.0.0",
-  "description": "Spring Boot development plugin with specialized agents for microservices, REST APIs, and enterprise Java",
+  "description": "Spring Boot plugin with specialized agents for microservices, REST APIs, security, and cloud-native development",
   "author": "Developer Roadmap Community",
   "repository": "https://github.com/kamranahmedse/developer-roadmap",
   "homepage": "https://roadmap.sh",
@@ -21,48 +21,13 @@
     "projects"
   ],
   "agents": [
-    {
-      "id": "roadmap-navigator",
-      "name": "Roadmap Navigator",
-      "file": "agents/01-roadmap-navigator.md",
-      "description": "Guides you through 65+ career paths and learning roadmaps"
-    },
-    {
-      "id": "learning-architect",
-      "name": "Learning Architect",
-      "file": "agents/02-learning-architect.md",
-      "description": "Designs personalized learning sequences with prerequisite management"
-    },
-    {
-      "id": "skill-evaluator",
-      "name": "Skill Evaluator",
-      "file": "agents/03-skill-evaluator.md",
-      "description": "Assesses your proficiency across technical competencies"
-    },
-    {
-      "id": "resource-curator",
-      "name": "Resource Curator",
-      "file": "agents/04-resource-curator.md",
-      "description": "Surfaces curated learning materials from 1,431 contributors"
-    },
-    {
-      "id": "progress-analyst",
-      "name": "Progress Analyst",
-      "file": "agents/05-progress-analyst.md",
-      "description": "Tracks learning progress and identifies skill gaps"
-    },
-    {
-      "id": "career-counselor",
-      "name": "Career Counselor",
-      "file": "agents/06-career-counselor.md",
-      "description": "Navigates career transitions and specializations"
-    },
-    {
-      "id": "project-mentor",
-      "name": "Project Mentor",
-      "file": "agents/07-project-mentor.md",
-      "description": "Guides you through 70+ hands-on projects aligned with your path"
-    }
+    "./agents/01-spring-boot-fundamentals.md",
+    "./agents/02-spring-mvc.md",
+    "./agents/03-spring-data.md",
+    "./agents/04-spring-security.md",
+    "./agents/05-spring-cloud.md",
+    "./agents/06-spring-testing.md",
+    "./agents/07-spring-reactive.md"
   ],
   "commands": [
     {
@@ -87,41 +52,13 @@
     }
   ],
   "skills": [
-    {
-      "name": "roadmap-navigation",
-      "file": "skills/roadmap-navigation/SKILL.md",
-      "description": "Navigate 65+ roadmaps and career paths"
-    },
-    {
-      "name": "learning-progression",
-      "file": "skills/learning-progression/SKILL.md",
-      "description": "Understand prerequisites and optimal learning sequences"
-    },
-    {
-      "name": "skill-assessment",
-      "file": "skills/skill-assessment/SKILL.md",
-      "description": "Multi-dimensional proficiency evaluation system"
-    },
-    {
-      "name": "community-resources",
-      "file": "skills/community-resources/SKILL.md",
-      "description": "Access 8,000+ curated learning resources"
-    },
-    {
-      "name": "progress-tracking",
-      "file": "skills/progress-tracking/SKILL.md",
-      "description": "Track progress and identify optimization opportunities"
-    },
-    {
-      "name": "career-pathways",
-      "file": "skills/career-pathways/SKILL.md",
-      "description": "Navigate career transitions and specializations"
-    },
-    {
-      "name": "project-learning",
-      "file": "skills/project-learning/SKILL.md",
-      "description": "Build portfolio with 70+ hands-on projects"
-    }
+    "./skills/spring-boot-basics/SKILL.md",
+    "./skills/spring-rest-api/SKILL.md",
+    "./skills/spring-data-jpa/SKILL.md",
+    "./skills/spring-security/SKILL.md",
+    "./skills/spring-microservices/SKILL.md",
+    "./skills/spring-testing/SKILL.md",
+    "./skills/spring-reactive/SKILL.md"
   ],
   "hooks": {
     "file": "hooks/hooks.json"
