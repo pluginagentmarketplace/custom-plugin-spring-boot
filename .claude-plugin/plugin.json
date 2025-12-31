@@ -36,22 +36,22 @@
   "commands": [
     {
       "name": "explore",
-      "file": "commands/explore.md",
+      "file": "./commands/explore.md",
       "description": "Discover and explore 65+ developer roadmaps"
     },
     {
       "name": "assess",
-      "file": "commands/assess.md",
+      "file": "./commands/assess.md",
       "description": "Evaluate your current skill levels"
     },
     {
       "name": "roadmap",
-      "file": "commands/roadmap.md",
+      "file": "./commands/roadmap.md",
       "description": "Start or continue a personalized learning path"
     },
     {
       "name": "project",
-      "file": "commands/project.md",
+      "file": "./commands/project.md",
       "description": "Get project recommendations and build portfolio"
     }
   ],
@@ -65,7 +65,7 @@
     "./skills/spring-reactive/SKILL.md"
   ],
   "hooks": {
-    "file": "hooks/hooks.json"
+    "file": "./hooks/hooks.json"
   },
   "settings": {
     "maxAgentsParallel": 7,
