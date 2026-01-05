@@ -63,7 +63,7 @@
 
 ```bash
 # Step 1️⃣ Add the marketplace
-/plugin add marketplace pluginagentmarketplace/custom-plugin-spring-boot
+/plugin marketplace add pluginagentmarketplace/custom-plugin-spring-boot
 
 # Step 2️⃣ Install the plugin
 /plugin install spring-boot-assistant@pluginagentmarketplace-spring-boot

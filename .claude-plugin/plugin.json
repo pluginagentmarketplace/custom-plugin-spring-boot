@@ -64,9 +64,6 @@
     "./skills/spring-testing/SKILL.md",
     "./skills/spring-reactive/SKILL.md"
   ],
-  "hooks": {
-    "file": "./hooks/hooks.json"
-  },
   "settings": {
     "maxAgentsParallel": 7,
     "cacheDuration": 3600,
